@@ -67,6 +67,7 @@ public class BukkitConfigurationManager extends YamlConfigurationManager {
     public void copyDefaults() {
         // Create the default configuration file
         plugin.createDefaultConfiguration(new File(plugin.getDataFolder(), "config.yml"), "config.yml");
+        plugin.createDefaultConfiguration(new File(plugin.getDataFolder(), "worlds/world/regions.yml"), "world/regions.yml");
     }
 
     @Override
