@@ -22,6 +22,7 @@ package com.sk89q.worldguard.bukkit.listener;
 import static com.sk89q.worldguard.bukkit.cause.Cause.create;
 
 import com.destroystokyo.paper.event.entity.EntityZapEvent;
+import com.sk89q.worldedit.bukkit.BukkitAdapter;
 import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
 import com.sk89q.worldguard.bukkit.cause.Cause;
 import com.sk89q.worldguard.bukkit.event.DelegateEvent;
@@ -44,8 +45,12 @@ import com.sk89q.worldguard.bukkit.util.Blocks;
 import com.sk89q.worldguard.bukkit.util.Entities;
 import com.sk89q.worldguard.bukkit.util.Events;
 import com.sk89q.worldguard.bukkit.util.Materials;
+import com.sk89q.worldguard.WorldGuard;
 import com.sk89q.worldguard.config.WorldConfiguration;
+import com.sk89q.worldguard.protection.ApplicableRegionSet;
+import com.sk89q.worldguard.protection.flags.Flag;
 import com.sk89q.worldguard.protection.flags.Flags;
+import com.sk89q.worldguard.protection.flags.StateFlag;
 import io.papermc.lib.PaperLib;
 import org.bukkit.Bukkit;
 import org.bukkit.Effect;
@@ -636,7 +641,7 @@ public class EventAbstractionListener extends AbstractListener {
         Events.fireToCancel(event, new PlaceBlockEvent(event, create(player), blockAffected.getLocation(), blockMaterial).setAllowed(allowed));
         Events.fireToCancel(event, new UseItemEvent(event, create(player), player.getWorld(), item).setAllowed(allowed));
 
-        if (event.isCancelled()) {
+        if (event.isCancelled() && !isOverridingFlagAllow("safe-fluids", blockAffected.getLocation())) {
             playDenyEffect(event.getPlayer(), blockAffected.getLocation().add(0.5, 0.5, 0.5));
         }
     }
@@ -656,9 +661,21 @@ public class EventAbstractionListener extends AbstractListener {
         Events.fireToCancel(event, new BreakBlockEvent(event, create(player), blockAffected).setAllowed(allowed));
         Events.fireToCancel(event, new UseItemEvent(event, create(player), player.getWorld(), item).setAllowed(allowed));
 
-        if (event.isCancelled()) {
+        if (event.isCancelled() && !isOverridingFlagAllow("safe-fluids", blockAffected.getLocation())) {
             playDenyEffect(event.getPlayer(), blockAffected.getLocation().add(0.5, 0.5, 0.5));
         }
+    }
+
+    // Lets partner plugins (e.g. FireFight-OG) suppress WG's deny effect when a
+    // higher-priority listener will re-allow the action via a registered StateFlag.
+    private static boolean isOverridingFlagAllow(String flagName, Location location) {
+        Flag<?> flag = WorldGuard.getInstance().getFlagRegistry().get(flagName);
+        if (!(flag instanceof StateFlag)) {
+            return false;
+        }
+        ApplicableRegionSet set = WorldGuard.getInstance().getPlatform().getRegionContainer()
+                .createQuery().getApplicableRegions(BukkitAdapter.adapt(location));
+        return set.testState(null, (StateFlag) flag);
     }
 
     // TODO: Handle EntityPortalEnterEvent
