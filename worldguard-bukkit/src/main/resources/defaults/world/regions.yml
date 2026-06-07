@@ -17,7 +17,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -50,9 +50,9 @@ regions:
         max: {x: -119, y: 59, z: -281}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [471770e7-59f1-40ba-b273-52d20000b561]
         type: cuboid
@@ -64,7 +64,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -76,7 +76,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -86,7 +86,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
@@ -113,7 +113,7 @@ regions:
         min: {x: -99, y: 54, z: -280}
         max: {x: -91, y: 59, z: -273}
         members: {}
-        flags: {ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use: allow,
+        flags: {ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use: allow,
             build-group: MEMBERS, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
             chest-access: allow, block-place: allow, ride: allow, block-break-group: MEMBERS}
         owners:
@@ -125,7 +125,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
@@ -151,7 +151,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -161,9 +161,9 @@ regions:
         max: {x: -199, y: 77, z: -257}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [7497ef87-70e4-465a-b2f5-c1d9e9ddc952]
         type: cuboid
@@ -173,9 +173,9 @@ regions:
         max: {x: -195, y: 80, z: -246}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [1535efec-ec8c-491c-9cd3-1731ef98c9b0]
         type: cuboid
@@ -187,7 +187,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -199,7 +199,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -221,7 +221,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -233,7 +233,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -245,7 +245,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -257,7 +257,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -269,7 +269,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -281,7 +281,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -292,8 +292,8 @@ regions:
         members:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
         flags: {chorus-fruit-teleport: deny, build: allow, invincible: deny, fall-damage: allow,
-            build-group: MEMBERS, lighter: allow, lava-flow: allow, pvp: allow, claim-bounties: deny,
-            mob-spawning: deny, fire-spread: deny, natural-hunger-drain: allow}
+            build-group: MEMBERS, lighter: allow, pvp: allow, lava-flow: allow, mob-spawning: deny,
+            claim-bounties: deny, fire-spread: deny, natural-hunger-drain: allow}
         owners: {}
         type: cuboid
         priority: 4
@@ -304,7 +304,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -316,7 +316,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -328,7 +328,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -348,7 +348,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
@@ -420,9 +420,9 @@ regions:
         max: {x: -200, y: 78, z: -204}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
         type: cuboid
@@ -432,9 +432,9 @@ regions:
         max: {x: -207, y: 80, z: -214}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [cbcc64a0-22d8-4b85-be7d-f531385704e4]
         type: cuboid
@@ -444,9 +444,9 @@ regions:
         max: {x: -193, y: 78, z: -237}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [9f6742ea-f6ed-4c32-a211-178b1b958f3f]
         type: cuboid
@@ -456,9 +456,9 @@ regions:
         max: {x: -206, y: 77, z: -232}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [1ca5f38d-0f3b-4dd6-b675-70de09328f6c]
         type: cuboid
@@ -468,9 +468,9 @@ regions:
         max: {x: -195, y: 80, z: -216}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [c9236ebb-8cd0-4b8c-b94f-c12cfcdb4c38]
         type: cuboid
@@ -480,9 +480,9 @@ regions:
         max: {x: -207, y: 77, z: -223}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [6fb3a7c4-66b0-4808-8670-e6f5068ca5c4]
         type: cuboid
@@ -492,9 +492,9 @@ regions:
         max: {x: -130, y: 70, z: -283}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [3ce11fdd-46c5-4935-9e5d-f8e71e3910f6]
         type: cuboid
@@ -506,9 +506,9 @@ regions:
             unique-ids: [a8f81a4a-d522-4cdf-a299-3c2842c13635, 471770e7-59f1-40ba-b273-52d20000b561,
                 a12777f4-5c67-4b70-8567-7c3e9725a0e9]
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [4f872b50-f500-4569-9d51-f6cbfcca894c]
         type: cuboid
@@ -518,9 +518,9 @@ regions:
         max: {x: -111, y: 68, z: -278}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [88b7c361-19d5-4be3-9c64-be71142a51a4]
         type: cuboid
@@ -538,9 +538,9 @@ regions:
         max: {x: -113, y: 72, z: -246}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [a7d51ca2-c5c2-4005-b0d9-a47cf06d73c8]
         type: cuboid
@@ -550,9 +550,9 @@ regions:
         max: {x: -100, y: 73, z: -242}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [c6ed864f-6c8b-44f0-a5cc-044bcdd934aa]
         type: cuboid
@@ -562,9 +562,9 @@ regions:
         max: {x: -111, y: 75, z: -235}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [33c02316-f7fd-4204-8178-e6a4f0ea9ffa]
         type: cuboid
@@ -574,9 +574,9 @@ regions:
         max: {x: -113, y: 72, z: -255}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [1caf7594-d95a-4488-ba62-47d43a27aaab]
         type: cuboid
@@ -588,7 +588,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -596,8 +596,8 @@ regions:
     arena-atlantis:
         members: {}
         flags: {chorus-fruit-teleport: deny, build: allow, invincible: deny, fall-damage: allow,
-            build-group: MEMBERS, lighter: allow, pvp: allow, claim-bounties: deny,
-            mob-spawning: deny, fire-spread: deny, natural-hunger-drain: allow}
+            build-group: MEMBERS, lighter: allow, pvp: allow, mob-spawning: deny,
+            claim-bounties: deny, fire-spread: deny, natural-hunger-drain: allow}
         owners: {}
         type: poly2d
         priority: 4
@@ -643,9 +643,9 @@ regions:
             unique-ids: [49d02d8a-6a02-4b7c-b849-67be313c36b4, 1535efec-ec8c-491c-9cd3-1731ef98c9b0,
                 6a4a92f0-07ea-42c7-87fa-7a44a2a9723b]
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [cb4872b5-67d5-4431-8ad2-763f6fb6ced8]
         type: cuboid
@@ -655,9 +655,9 @@ regions:
         max: {x: -101, y: 73, z: -252}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [42ca230e-d44d-4c4b-841c-2d0bedb4f005]
         type: cuboid
@@ -667,9 +667,9 @@ regions:
         max: {x: -211, y: 78, z: -285}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [a0fc2d97-f374-4fb0-b1ad-f881d9b9f656]
         type: cuboid
@@ -679,9 +679,9 @@ regions:
         max: {x: -202, y: 78, z: -272}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [8330d120-2e4b-48c1-bfdc-8d4920dee119]
         type: cuboid
@@ -701,9 +701,9 @@ regions:
         max: {x: -155, y: 68, z: -279}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [fbd2363f-7879-47a8-89c1-415f2c103aac]
         type: cuboid
@@ -713,9 +713,9 @@ regions:
         max: {x: -152, y: 71, z: -244}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [6b8ee573-0330-402d-8ad3-faeb2a27246a]
         type: cuboid
@@ -725,9 +725,9 @@ regions:
         max: {x: -142, y: 69, z: -282}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [9f28d36c-6865-4a7c-b79b-b47faefb7b0f]
         type: cuboid
@@ -737,9 +737,9 @@ regions:
         max: {x: -132, y: 72, z: -259}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [7eea4139-71dc-40ef-b082-9258dc66d54e]
         type: cuboid
@@ -749,9 +749,9 @@ regions:
         max: {x: -183, y: 73, z: -230}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [50428042-1e75-46d6-bc90-ea989b653a46]
         type: cuboid
@@ -761,9 +761,9 @@ regions:
         max: {x: -168, y: 70, z: -264}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [3ff2b505-698b-4c6a-a07c-be0644130677]
         type: cuboid
@@ -773,9 +773,9 @@ regions:
         max: {x: -173, y: 71, z: -280}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [76a16193-28cc-43bc-97e2-034876ab4a68]
         type: cuboid
@@ -785,9 +785,9 @@ regions:
         max: {x: -155, y: 70, z: -255}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [9950501e-140d-4f62-a883-06b989013d4d]
         type: cuboid
@@ -809,7 +809,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -820,7 +820,7 @@ regions:
         members: {}
         flags: {other-explosion: deny, creeper-explosion: deny, invincible: allow,
             fall-damage: deny, mob-damage: deny, block-trampling: deny, damage-animals: deny,
-            enderman-grief: deny, lava-flow: deny, tnt: deny, pvp: deny, fire-spread: deny}
+            enderman-grief: deny, pvp: deny, lava-flow: deny, tnt: deny, fire-spread: deny}
         owners: {}
         type: cuboid
         priority: 5
@@ -829,9 +829,9 @@ regions:
         max: {x: -104, y: 69, z: -188}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [aec7ca7a-3ca9-4001-adfc-a81b596d8201]
         type: cuboid
@@ -841,9 +841,9 @@ regions:
         max: {x: -101, y: 68, z: -197}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [321f6eff-5815-4f16-a857-f85d63ad3e8e]
         type: cuboid
@@ -853,9 +853,9 @@ regions:
         max: {x: -100, y: 68, z: -206}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [c0541b9a-e999-460d-b5bb-e778eee09738]
         type: cuboid
@@ -863,9 +863,9 @@ regions:
     shop-44:
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [6e0007a5-9164-4fba-8c6a-fe940ba797fc]
         type: poly2d
@@ -889,9 +889,9 @@ regions:
         max: {x: -106, y: 69, z: -174}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [aec7ca7a-3ca9-4001-adfc-a81b596d8201]
         type: cuboid
@@ -903,7 +903,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
             block-break-group: MEMBERS}
         owners: {}
@@ -914,9 +914,9 @@ regions:
         max: {x: -118, y: 68, z: -212}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [5d3a5ac0-8a2c-41e6-b20d-9283b1ef227c]
         type: cuboid
@@ -928,7 +928,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
             block-break-group: MEMBERS}
         owners: {}
@@ -941,7 +941,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
             block-break-group: MEMBERS}
         owners: {}
@@ -954,7 +954,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
             block-break-group: MEMBERS}
         owners: {}
@@ -966,6 +966,7 @@ regions:
         members:
             groups: [builder, helper, moderator]
         flags:
+            fire-extinguish: allow
             chorus-fruit-teleport: allow
             invincible: deny
             greeting: '§c! WARNING: WARZONE. PVP IS ENABLED !'
@@ -977,6 +978,7 @@ regions:
                 'minecraft:llama', 'minecraft:wolf', 'minecraft:pig', 'minecraft:sheep']
             mob-spawning: allow
             natural-hunger-drain: allow
+            temporary-fluids: allow
             fall-damage: allow
             mob-damage: allow
             damage-animals: allow
@@ -990,9 +992,9 @@ regions:
         max: {x: -120, y: 72, z: -234}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [8330d120-2e4b-48c1-bfdc-8d4920dee119]
         type: cuboid
@@ -1003,9 +1005,9 @@ regions:
         members:
             unique-ids: [4f872b50-f500-4569-9d51-f6cbfcca894c]
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [a8f81a4a-d522-4cdf-a299-3c2842c13635]
         type: cuboid
@@ -1017,7 +1019,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -1027,9 +1029,9 @@ regions:
         max: {x: -161, y: 69, z: -218}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [830f7748-c61f-4913-8af4-b95a3abf3615]
         type: cuboid
@@ -1039,9 +1041,9 @@ regions:
         max: {x: -130, y: 70, z: -185}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [b67ae6a1-d8b2-4d7c-846f-8a43470a3389]
         type: cuboid
@@ -1051,9 +1053,9 @@ regions:
         max: {x: -122, y: 68, z: -178}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [c14a78d4-98a9-437e-b1c8-ac7a1772c6ea]
         type: cuboid
@@ -1063,7 +1065,7 @@ regions:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
         flags: {other-explosion: deny, creeper-explosion: deny, invincible: allow,
             fall-damage: deny, mob-damage: deny, block-trampling: deny, damage-animals: deny,
-            enderman-grief: deny, lava-flow: deny, tnt: deny, pvp: deny, fire-spread: deny}
+            enderman-grief: deny, pvp: deny, lava-flow: deny, tnt: deny, fire-spread: deny}
         owners: {}
         type: poly2d
         priority: 4
@@ -1105,9 +1107,9 @@ regions:
         max: {x: -155, y: 68, z: -203}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [ca8b8f60-dc62-4f7a-ac83-997284a41303]
         type: cuboid
@@ -1117,8 +1119,8 @@ regions:
         max: {x: 108, y: 77, z: -252}
         members: {}
         flags: {chorus-fruit-teleport: deny, build: deny, water-flow: allow, invincible: deny,
-            fall-damage: allow, lighter: allow, pvp: allow, claim-bounties: deny,
-            mob-spawning: deny, block-place: deny, fire-spread: deny, natural-hunger-drain: deny}
+            fall-damage: allow, lighter: allow, pvp: allow, mob-spawning: deny, block-place: deny,
+            claim-bounties: deny, fire-spread: deny, natural-hunger-drain: deny}
         owners: {}
         type: cuboid
         priority: 3
@@ -1127,9 +1129,9 @@ regions:
         max: {x: -160, y: 70, z: -190}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [16fd9c05-d5b3-4c88-9534-e4f7b7fb49ce]
         type: cuboid
@@ -1139,9 +1141,9 @@ regions:
         max: {x: -140, y: 69, z: -211}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [1f60f6c2-c942-4271-87b5-14494cf35033]
         type: cuboid
@@ -1151,9 +1153,9 @@ regions:
         max: {x: -135, y: 70, z: -198}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [4bf7fec6-04cc-4f1c-8d75-90883d0463cf]
         type: cuboid
@@ -1195,7 +1197,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -1207,7 +1209,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -1219,7 +1221,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -1239,7 +1241,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -1249,7 +1251,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
@@ -1285,7 +1287,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -1295,7 +1297,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
@@ -1323,7 +1325,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
             block-break-group: MEMBERS}
         owners: {}
@@ -1336,7 +1338,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
             block-break-group: MEMBERS}
         owners: {}
@@ -1347,9 +1349,9 @@ regions:
         max: {x: -187, y: 56, z: -252}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [8330d120-2e4b-48c1-bfdc-8d4920dee119]
         type: cuboid
@@ -1366,7 +1368,7 @@ regions:
         priority: 4
     shop-52:
         members: {}
-        flags: {ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use: allow,
+        flags: {ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use: allow,
             build-group: MEMBERS, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
             chest-access: allow, block-place: allow, ride: allow, block-break-group: MEMBERS}
         owners:
@@ -1404,9 +1406,9 @@ regions:
     shop-53:
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [297eaa53-8782-4bd6-a46e-94c9efb9e4f5]
         type: poly2d
@@ -1440,7 +1442,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
@@ -1470,7 +1472,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, chest-access-group: MEMBERS, build: allow, use-group: ALL,
+            ride-group: MEMBERS, build: allow, chest-access-group: MEMBERS, use-group: ALL,
             block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
@@ -1497,9 +1499,9 @@ regions:
         max: {x: -227, y: 56, z: -272}
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [1e9815f6-480a-4ef5-8de9-f73c76b72af3]
         type: cuboid
@@ -1507,9 +1509,9 @@ regions:
     shop-51:
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [bc26eba9-b8e3-45f1-a755-d46260cdccc7]
         type: poly2d
@@ -1537,7 +1539,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -1547,7 +1549,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
@@ -1573,7 +1575,7 @@ regions:
         flags: {use: allow, build-group: MEMBERS, greeting: '[§2True§4OG§r] §6This
                 shop can be rented for §b32 Diamonds §6per §230 days §6and extended
                 to §2365 days', chest-access: allow, block-place: allow, ride: allow,
-            ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS, build: allow,
+            ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
             use-group: ALL, block-break: allow, block-place-group: MEMBERS, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
@@ -1581,9 +1583,9 @@ regions:
     shop-59:
         members: {}
         flags: {use: allow, build-group: MEMBERS, chest-access: allow, block-place: allow,
-            ride: allow, ride-group: MEMBERS, can-flippy: allow, chest-access-group: MEMBERS,
-            build: allow, use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
-            use-anvil: allow, block-break-group: MEMBERS}
+            ride: allow, ride-group: MEMBERS, can-flippy: allow, build: allow, chest-access-group: MEMBERS,
+            use-group: MEMBERS, block-break: allow, block-place-group: MEMBERS, use-anvil: allow,
+            block-break-group: MEMBERS}
         owners:
             unique-ids: [4f872b50-f500-4569-9d51-f6cbfcca894c]
         type: poly2d
@@ -1623,10 +1625,10 @@ regions:
             invincible: allow
             use: allow
             greeting: §bWelcome to spawn! PvP is disabled here except in the warzone/arena.
+            ice-melt: deny
             leaf-decay: deny
             snow-fall: deny
             block-trampling: deny
-            ice-melt: deny
             allow-boat-tp: deny
             fire-spread: deny
             can-flippy: deny
@@ -1663,7 +1665,8 @@ regions:
         priority: 5
     __global__:
         members: {}
-        flags: {other-explosion: allow, creeper-explosion: allow, fire-spread: allow}
+        flags: {other-explosion: allow, creeper-explosion: allow, fire-spread: allow,
+            natural-hunger-drain: allow}
         owners: {}
         type: global
         priority: 0
