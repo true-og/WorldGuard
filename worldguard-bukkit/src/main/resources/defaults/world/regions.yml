@@ -1120,7 +1120,7 @@ regions:
         members: {}
         flags: {chorus-fruit-teleport: deny, build: deny, water-flow: allow, invincible: deny,
             fall-damage: allow, lighter: allow, pvp: allow, mob-spawning: deny, block-place: deny,
-            claim-bounties: deny, fire-spread: deny, natural-hunger-drain: deny}
+            claim-bounties: deny, fire-spread: deny, natural-hunger-drain: allow}
         owners: {}
         type: cuboid
         priority: 3
@@ -1167,7 +1167,7 @@ regions:
             groups: [builder, helper, moderator]
         flags: {invincible: allow, greeting: §bWelcome to the player market! PvP is
                 disabled here., block-trampling: deny, lighter: deny, mob-spawning: deny,
-            use-anvil: deny, natural-hunger-drain: deny}
+            use-anvil: deny, natural-hunger-drain: allow}
         owners: {}
         type: cuboid
         priority: 5
@@ -1641,7 +1641,7 @@ regions:
             deny-spawn: ['minecraft:cow', 'minecraft:chicken', 'minecraft:pig', 'minecraft:llama',
                 'minecraft:sheep', 'minecraft:rabbit']
             mob-spawning: deny
-            natural-hunger-drain: deny
+            natural-hunger-drain: allow
             creeper-explosion: deny
             vine-growth: deny
             game-mode: survival
