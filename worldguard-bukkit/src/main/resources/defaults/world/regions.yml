@@ -963,8 +963,7 @@ regions:
     warzone:
         min: {x: -251, y: 2, z: -353}
         max: {x: -26, y: 319, z: -91}
-        members:
-            groups: [builder, helper, moderator]
+        members: {}
         flags:
             fire-extinguish: allow
             chorus-fruit-teleport: allow
@@ -1163,8 +1162,7 @@ regions:
     market:
         min: {x: -219, y: -64, z: -293}
         max: {x: -88, y: 319, z: -173}
-        members:
-            groups: [builder, helper, moderator]
+        members: {}
         flags: {invincible: allow, greeting: §bWelcome to the player market! PvP is
                 disabled here., block-trampling: deny, lighter: deny, mob-spawning: deny,
             use-anvil: deny, natural-hunger-drain: allow}
@@ -1184,8 +1182,7 @@ regions:
     oitc-lava-flow:
         min: {x: 33, y: 63, z: -143}
         max: {x: 43, y: 69, z: -138}
-        members:
-            groups: [builder, helper, moderator]
+        members: {}
         flags: {lava-flow: allow}
         owners: {}
         type: cuboid
@@ -1617,8 +1614,7 @@ regions:
     spawn:
         min: {x: -255, y: 0, z: -353}
         max: {x: 150, y: 255, z: -91}
-        members:
-            groups: [builder, helper, moderator]
+        members: {}
         flags:
             other-explosion: deny
             water-flow: allow
