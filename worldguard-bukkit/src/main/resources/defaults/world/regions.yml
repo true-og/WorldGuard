@@ -1234,9 +1234,19 @@ regions:
         min: {x: -219, y: -64, z: -293}
         max: {x: -88, y: 319, z: -173}
         members: {}
-        flags: {haven: allow, invincible: allow, greeting: §bWelcome to the player
-                market! PvP is disabled here., block-trampling: deny, lighter: deny,
-            mob-spawning: deny, use-anvil: deny, natural-hunger-drain: allow}
+        flags:
+            haven: allow
+            invincible: allow
+            greeting: §bWelcome to the player market! PvP is disabled here.
+            block-trampling: deny
+            lighter: deny
+            mob-spawning: deny
+            use-anvil: deny
+            natural-hunger-drain: allow
+            # Spawn only supplies use allow across y 0-255 while this region spans y -64 to 319.
+            use: allow
+            # Market sits wholly inside warzone, which grants pvp allow at prio 4, so deny it explicitly here at prio 5.
+            pvp: deny
         owners: {}
         type: cuboid
         priority: 5
