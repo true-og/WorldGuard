@@ -1743,7 +1743,6 @@ regions:
             creeper-explosion: deny
             vine-growth: deny
             fall-damage: deny
-            game-mode: survival
             damage-animals: deny
             frosted-ice-melt: deny
             snow-melt: deny
