@@ -91,6 +91,7 @@ public final class Flags {
     public static final StateFlag MOB_DAMAGE = register(new StateFlag("mob-damage", true));
     public static final StateFlag CREEPER_EXPLOSION = register(new StateFlag("creeper-explosion", true));
     public static final StateFlag ENDERDRAGON_BLOCK_DAMAGE = register(new StateFlag("enderdragon-block-damage", true));
+    public static final StateFlag CREEPER_BLOCK_DAMAGE = register(new StateFlag("creeper-block-damage", true));
     public static final StateFlag GHAST_FIREBALL = register(new StateFlag("ghast-fireball", true));
     public static final StateFlag OTHER_EXPLOSION = register(new StateFlag("other-explosion", true));
     public static final StateFlag WITHER_DAMAGE = register(new StateFlag("wither-damage", true));

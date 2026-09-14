@@ -14,31 +14,20 @@ regions:
         min: {x: -124, y: 54, z: -271}
         max: {x: -120, y: 59, z: -259}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
-        owners: {}
-        type: cuboid
-        priority: 20
-    shop-86:
-        min: {x: -125, y: 53, z: -291}
-        max: {x: -119, y: 59, z: -281}
-        members:
-            unique-ids: [471770e7-59f1-40ba-b273-52d20000b561]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     arena-hell:
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
@@ -60,16 +49,31 @@ regions:
         - {x: 137, z: -143}
         - {x: 149, z: -143}
         - {x: 149, z: -124}
+    shop-86:
+        min: {x: -125, y: 53, z: -291}
+        max: {x: -119, y: 59, z: -281}
+        members:
+            unique-ids: [471770e7-59f1-40ba-b273-52d20000b561]
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
+        owners: {}
+        type: cuboid
+        priority: 20
     shop-87:
         min: {x: -136, y: 53, z: -271}
         max: {x: -132, y: 58, z: -263}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -77,23 +81,27 @@ regions:
         min: {x: -139, y: 53, z: -285}
         max: {x: -129, y: 57, z: -281}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     shop-81:
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -120,21 +128,24 @@ regions:
         max: {x: -91, y: 59, z: -273}
         members:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     shop-83:
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -156,12 +167,14 @@ regions:
         min: {x: -114, y: 53, z: -292}
         max: {x: -106, y: 57, z: -281}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -170,11 +183,11 @@ regions:
         max: {x: -199, y: 77, z: -257}
         members:
             unique-ids: [7497ef87-70e4-465a-b2f5-c1d9e9ddc952]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -183,11 +196,11 @@ regions:
         max: {x: -195, y: 80, z: -246}
         members:
             unique-ids: [1535efec-ec8c-491c-9cd3-1731ef98c9b0]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -195,12 +208,14 @@ regions:
         min: {x: -212, y: 75, z: -246}
         max: {x: -209, y: 80, z: -243}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -208,12 +223,14 @@ regions:
         min: {x: -149, y: 54, z: -271}
         max: {x: -143, y: 57, z: -266}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -221,7 +238,7 @@ regions:
         min: {x: 127, y: 104, z: -349}
         max: {x: 147, y: 116, z: -326}
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
@@ -232,12 +249,14 @@ regions:
         min: {x: -99, y: 53, z: -271}
         max: {x: -89, y: 59, z: -262}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -245,12 +264,14 @@ regions:
         min: {x: -144, y: 54, z: -240}
         max: {x: -136, y: 58, z: -232}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -258,12 +279,14 @@ regions:
         min: {x: -154, y: 54, z: -266}
         max: {x: -150, y: 56, z: -251}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -271,12 +294,14 @@ regions:
         min: {x: -132, y: 55, z: -241}
         max: {x: -125, y: 61, z: -235}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -284,12 +309,29 @@ regions:
         min: {x: -136, y: 54, z: -261}
         max: {x: -131, y: 58, z: -251}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
+        owners: {}
+        type: cuboid
+        priority: 20
+    shop-70:
+        min: {x: -166, y: 54, z: -241}
+        max: {x: -158, y: 56, z: -234}
+        members: {}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -298,36 +340,25 @@ regions:
         max: {x: 78, y: 63, z: -190}
         members:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, build-group: MEMBERS, lighter: allow, pvp: allow, mob-spawning: deny,
             fire-spread: deny, natural-hunger-drain: allow, temporary-fluids: allow,
             build: allow, fall-damage: allow, lava-flow: allow, claim-bounties: deny}
         owners: {}
         type: cuboid
         priority: 4
-    shop-70:
-        min: {x: -166, y: 54, z: -241}
-        max: {x: -158, y: 56, z: -234}
-        members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
-        owners: {}
-        type: cuboid
-        priority: 20
     shop-71:
         min: {x: -179, y: 53, z: -255}
         max: {x: -171, y: 59, z: -251}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -335,12 +366,14 @@ regions:
         min: {x: -155, y: 53, z: -241}
         max: {x: -148, y: 61, z: -230}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -348,12 +381,14 @@ regions:
         min: {x: -165, y: 54, z: -255}
         max: {x: -160, y: 58, z: -251}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -361,7 +396,7 @@ regions:
         min: {x: -105, y: 47, z: -293}
         max: {x: -97, y: 52, z: -270}
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
@@ -370,12 +405,14 @@ regions:
         priority: 4
     shop-79:
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -397,7 +434,7 @@ regions:
         - {x: -129, z: -260}
     arena-frozone:
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
@@ -447,11 +484,11 @@ regions:
         max: {x: -200, y: 78, z: -204}
         members:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -460,11 +497,11 @@ regions:
         max: {x: -207, y: 80, z: -214}
         members:
             unique-ids: [cbcc64a0-22d8-4b85-be7d-f531385704e4]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -473,11 +510,11 @@ regions:
         max: {x: -193, y: 78, z: -237}
         members:
             unique-ids: [9f6742ea-f6ed-4c32-a211-178b1b958f3f]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -486,11 +523,11 @@ regions:
         max: {x: -206, y: 77, z: -232}
         members:
             unique-ids: [1ca5f38d-0f3b-4dd6-b675-70de09328f6c]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -499,11 +536,11 @@ regions:
         max: {x: -195, y: 80, z: -216}
         members:
             unique-ids: [c9236ebb-8cd0-4b8c-b94f-c12cfcdb4c38]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -512,11 +549,11 @@ regions:
         max: {x: -207, y: 77, z: -223}
         members:
             unique-ids: [6fb3a7c4-66b0-4808-8670-e6f5068ca5c4]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -525,11 +562,11 @@ regions:
         max: {x: -130, y: 70, z: -283}
         members:
             unique-ids: [3ce11fdd-46c5-4935-9e5d-f8e71e3910f6]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -539,11 +576,24 @@ regions:
         members:
             unique-ids: [a12777f4-5c67-4b70-8567-7c3e9725a0e9, 4f872b50-f500-4569-9d51-f6cbfcca894c,
                 a8f81a4a-d522-4cdf-a299-3c2842c13635, 471770e7-59f1-40ba-b273-52d20000b561]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
+        owners: {}
+        type: cuboid
+        priority: 20
+    shop-22:
+        min: {x: -119, y: 66, z: -284}
+        max: {x: -111, y: 68, z: -278}
+        members:
+            unique-ids: [88b7c361-19d5-4be3-9c64-be71142a51a4]
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -555,29 +605,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 5
-    shop-22:
-        min: {x: -119, y: 66, z: -284}
-        max: {x: -111, y: 68, z: -278}
-        members:
-            unique-ids: [88b7c361-19d5-4be3-9c64-be71142a51a4]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
-        owners: {}
-        type: cuboid
-        priority: 20
     shop-27:
         min: {x: -118, y: 69, z: -251}
         max: {x: -113, y: 72, z: -246}
         members:
             unique-ids: [a7d51ca2-c5c2-4005-b0d9-a47cf06d73c8]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -586,11 +623,11 @@ regions:
         max: {x: -100, y: 73, z: -242}
         members:
             unique-ids: [c6ed864f-6c8b-44f0-a5cc-044bcdd934aa]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -599,11 +636,11 @@ regions:
         max: {x: -111, y: 75, z: -235}
         members:
             unique-ids: [33c02316-f7fd-4204-8178-e6a4f0ea9ffa]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -612,17 +649,32 @@ regions:
         max: {x: -113, y: 72, z: -255}
         members:
             unique-ids: [1caf7594-d95a-4488-ba62-47d43a27aaab]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
+        owners: {}
+        type: cuboid
+        priority: 20
+    shop-24:
+        min: {x: -106, y: 66, z: -286}
+        max: {x: -104, y: 69, z: -280}
+        members: {}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     arena-atlantis:
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, build-group: MEMBERS, lighter: allow, pvp: allow, mob-spawning: deny,
             fire-spread: deny, natural-hunger-drain: allow, temporary-fluids: allow,
             build: allow, fall-damage: allow, claim-bounties: deny}
@@ -664,30 +716,17 @@ regions:
         - {x: -25, z: -93}
         - {x: -24, z: -95}
         - {x: -23, z: -96}
-    shop-24:
-        min: {x: -106, y: 66, z: -286}
-        max: {x: -104, y: 69, z: -280}
-        members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
-        owners: {}
-        type: cuboid
-        priority: 20
     shop-25:
         min: {x: -109, y: 66, z: -272}
         max: {x: -102, y: 67, z: -269}
         members:
             unique-ids: [1535efec-ec8c-491c-9cd3-1731ef98c9b0, cb4872b5-67d5-4431-8ad2-763f6fb6ced8,
                 49d02d8a-6a02-4b7c-b849-67be313c36b4, 6a4a92f0-07ea-42c7-87fa-7a44a2a9723b]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -696,11 +735,11 @@ regions:
         max: {x: -101, y: 73, z: -252}
         members:
             unique-ids: [42ca230e-d44d-4c4b-841c-2d0bedb4f005]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -709,11 +748,11 @@ regions:
         max: {x: -211, y: 78, z: -285}
         members:
             unique-ids: [a0fc2d97-f374-4fb0-b1ad-f881d9b9f656]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -722,11 +761,11 @@ regions:
         max: {x: -202, y: 78, z: -272}
         members:
             unique-ids: [8330d120-2e4b-48c1-bfdc-8d4920dee119]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -734,7 +773,7 @@ regions:
         min: {x: 127, y: 64, z: -202}
         max: {x: 145, y: 72, z: -187}
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
@@ -746,11 +785,11 @@ regions:
         max: {x: -155, y: 68, z: -279}
         members:
             unique-ids: [fbd2363f-7879-47a8-89c1-415f2c103aac]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -759,11 +798,11 @@ regions:
         max: {x: -152, y: 71, z: -244}
         members:
             unique-ids: [6b8ee573-0330-402d-8ad3-faeb2a27246a]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -772,11 +811,11 @@ regions:
         max: {x: -142, y: 69, z: -282}
         members:
             unique-ids: [9f28d36c-6865-4a7c-b79b-b47faefb7b0f]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -785,11 +824,11 @@ regions:
         max: {x: -132, y: 72, z: -259}
         members:
             unique-ids: [7eea4139-71dc-40ef-b082-9258dc66d54e]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -798,11 +837,11 @@ regions:
         max: {x: -183, y: 73, z: -230}
         members:
             unique-ids: [50428042-1e75-46d6-bc90-ea989b653a46]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -811,11 +850,11 @@ regions:
         max: {x: -168, y: 70, z: -264}
         members:
             unique-ids: [3ff2b505-698b-4c6a-a07c-be0644130677]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -824,11 +863,11 @@ regions:
         max: {x: -173, y: 71, z: -280}
         members:
             unique-ids: [76a16193-28cc-43bc-97e2-034876ab4a68]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -837,11 +876,11 @@ regions:
         max: {x: -155, y: 70, z: -255}
         members:
             unique-ids: [9950501e-140d-4f62-a883-06b989013d4d]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -849,7 +888,7 @@ regions:
         min: {x: -247, y: 34, z: -312}
         max: {x: -223, y: 47, z: -292}
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
@@ -860,12 +899,14 @@ regions:
         min: {x: -149, y: 53, z: -287}
         max: {x: -143, y: 57, z: -281}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -873,9 +914,9 @@ regions:
         min: {x: 68, y: 144, z: -293}
         max: {x: 92, y: 148, z: -287}
         members: {}
-        flags: {other-explosion: deny, creeper-explosion: deny, invincible: allow,
-            fall-damage: deny, mob-damage: deny, block-trampling: deny, damage-animals: deny,
-            enderman-grief: deny, tnt: deny, pvp: deny, lava-flow: deny, fire-spread: deny}
+        flags: {other-explosion: deny, creeper-explosion: deny, fall-damage: deny,
+            invincible: allow, mob-damage: deny, block-trampling: deny, damage-animals: deny,
+            enderman-grief: deny, lava-flow: deny, pvp: deny, tnt: deny, fire-spread: deny}
         owners: {}
         type: cuboid
         priority: 5
@@ -884,11 +925,11 @@ regions:
         max: {x: -104, y: 69, z: -188}
         members:
             unique-ids: [aec7ca7a-3ca9-4001-adfc-a81b596d8201]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -897,11 +938,11 @@ regions:
         max: {x: -101, y: 68, z: -197}
         members:
             unique-ids: [321f6eff-5815-4f16-a857-f85d63ad3e8e]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -910,22 +951,22 @@ regions:
         max: {x: -100, y: 68, z: -206}
         members:
             unique-ids: [c0541b9a-e999-460d-b5bb-e778eee09738]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     shop-44:
         members:
             unique-ids: [6e0007a5-9164-4fba-8c6a-fe940ba797fc]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -948,11 +989,11 @@ regions:
         max: {x: -106, y: 69, z: -174}
         members:
             unique-ids: [aec7ca7a-3ca9-4001-adfc-a81b596d8201]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -960,12 +1001,14 @@ regions:
         min: {x: -59, y: 28, z: -219}
         max: {x: -54, y: 30, z: -216}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, use-anvil: allow, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -974,11 +1017,11 @@ regions:
         max: {x: -118, y: 68, z: -212}
         members:
             unique-ids: [5d3a5ac0-8a2c-41e6-b20d-9283b1ef227c]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -986,12 +1029,14 @@ regions:
         min: {x: -61, y: 33, z: -229}
         max: {x: -58, y: 36, z: -223}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, use-anvil: allow, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -999,12 +1044,14 @@ regions:
         min: {x: -49, y: 33, z: -230}
         max: {x: -44, y: 35, z: -227}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, use-anvil: allow, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1012,12 +1059,14 @@ regions:
         min: {x: -46, y: 51, z: -231}
         max: {x: -44, y: 53, z: -225}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, use-anvil: allow, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1026,13 +1075,15 @@ regions:
         max: {x: -26, y: 319, z: -91}
         members: {}
         flags:
-            chorus-fruit-teleport: allow
             fire-extinguish: allow
+            chorus-fruit-teleport: allow
             invincible: deny
+            creeper-explosion: allow
+            creeper-block-damage: deny
             greeting: '§c! WARNING: WARZONE. PVP IS ENABLED !'
-            lighter: allow
             interact: allow
             create-bounties: allow
+            lighter: allow
             pvp: allow
             deny-spawn: ['minecraft:bat', 'minecraft:cow', 'minecraft:chicken', 'minecraft:donkey',
                 'minecraft:llama', 'minecraft:wolf', 'minecraft:pig', 'minecraft:sheep']
@@ -1042,8 +1093,8 @@ regions:
             fall-damage: allow
             mob-damage: allow
             damage-animals: allow
-            tnt: allow
             lava-flow: allow
+            tnt: allow
         owners: {}
         type: cuboid
         priority: 4
@@ -1052,11 +1103,11 @@ regions:
         max: {x: -120, y: 72, z: -234}
         members:
             unique-ids: [8330d120-2e4b-48c1-bfdc-8d4920dee119]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1065,11 +1116,11 @@ regions:
         max: {x: -130, y: 72, z: -235}
         members:
             unique-ids: [4f872b50-f500-4569-9d51-f6cbfcca894c, a8f81a4a-d522-4cdf-a299-3c2842c13635]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1077,12 +1128,14 @@ regions:
         min: {x: -166, y: 65, z: -237}
         max: {x: -157, y: 72, z: -231}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1091,11 +1144,11 @@ regions:
         max: {x: -161, y: 69, z: -218}
         members:
             unique-ids: [830f7748-c61f-4913-8af4-b95a3abf3615]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1104,11 +1157,11 @@ regions:
         max: {x: -130, y: 70, z: -185}
         members:
             unique-ids: [b67ae6a1-d8b2-4d7c-846f-8a43470a3389]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1117,20 +1170,20 @@ regions:
         max: {x: -122, y: 68, z: -178}
         members:
             unique-ids: [c14a78d4-98a9-437e-b1c8-ac7a1772c6ea]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     atlantis-stalls:
         members:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
-        flags: {other-explosion: deny, creeper-explosion: deny, invincible: allow,
-            fall-damage: deny, mob-damage: deny, block-trampling: deny, damage-animals: deny,
-            enderman-grief: deny, tnt: deny, pvp: deny, lava-flow: deny, fire-spread: deny}
+        flags: {other-explosion: deny, creeper-explosion: deny, fall-damage: deny,
+            invincible: allow, mob-damage: deny, block-trampling: deny, damage-animals: deny,
+            enderman-grief: deny, lava-flow: deny, pvp: deny, tnt: deny, fire-spread: deny}
         owners: {}
         type: poly2d
         priority: 4
@@ -1172,11 +1225,11 @@ regions:
         max: {x: -155, y: 68, z: -203}
         members:
             unique-ids: [ca8b8f60-dc62-4f7a-ac83-997284a41303]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1184,7 +1237,7 @@ regions:
         min: {x: 88, y: 64, z: -271}
         max: {x: 108, y: 77, z: -252}
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             water-flow: allow, invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny,
             block-place: deny, fire-spread: deny, natural-hunger-drain: allow, temporary-fluids: allow,
             build: deny, fall-damage: allow, claim-bounties: deny}
@@ -1196,11 +1249,11 @@ regions:
         max: {x: -160, y: 70, z: -190}
         members:
             unique-ids: [16fd9c05-d5b3-4c88-9534-e4f7b7fb49ce]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1209,11 +1262,11 @@ regions:
         max: {x: -140, y: 69, z: -211}
         members:
             unique-ids: [1f60f6c2-c942-4271-87b5-14494cf35033]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1222,11 +1275,11 @@ regions:
         max: {x: -135, y: 70, z: -198}
         members:
             unique-ids: [4bf7fec6-04cc-4f1c-8d75-90883d0463cf]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1234,19 +1287,9 @@ regions:
         min: {x: -219, y: -64, z: -293}
         max: {x: -88, y: 319, z: -173}
         members: {}
-        flags:
-            haven: allow
-            invincible: allow
-            greeting: §bWelcome to the player market! PvP is disabled here.
-            block-trampling: deny
-            lighter: deny
-            mob-spawning: deny
-            use-anvil: deny
-            natural-hunger-drain: allow
-            # Spawn only supplies use allow across y 0-255 while this region spans y -64 to 319.
-            use: allow
-            # Market sits wholly inside warzone, which grants pvp allow at prio 4, so deny it explicitly here at prio 5.
-            pvp: deny
+        flags: {haven: allow, use: allow, invincible: allow, greeting: §bWelcome to
+                the player market! PvP is disabled here., block-trampling: deny, lighter: deny,
+            pvp: deny, mob-spawning: deny, use-anvil: deny, natural-hunger-drain: allow}
         owners: {}
         type: cuboid
         priority: 5
@@ -1254,7 +1297,7 @@ regions:
         min: {x: 3, y: 50, z: -135}
         max: {x: 33, y: 75, z: -106}
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
@@ -1273,12 +1316,14 @@ regions:
         min: {x: -217, y: 49, z: -225}
         max: {x: -211, y: 57, z: -218}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1286,12 +1331,14 @@ regions:
         min: {x: -200, y: 54, z: -238}
         max: {x: -194, y: 59, z: -230}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1299,12 +1346,14 @@ regions:
         min: {x: -217, y: 49, z: -238}
         max: {x: -211, y: 58, z: -229}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1320,23 +1369,27 @@ regions:
         min: {x: -189, y: 49, z: -241}
         max: {x: -185, y: 57, z: -232}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     shop-60:
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -1368,23 +1421,27 @@ regions:
         min: {x: -207, y: 54, z: -199}
         max: {x: -203, y: 56, z: -189}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     shop-62:
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -1408,12 +1465,14 @@ regions:
         min: {x: -209, y: 49, z: -256}
         max: {x: -200, y: 60, z: -251}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, use-anvil: allow, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1421,12 +1480,14 @@ regions:
         min: {x: -180, y: 52, z: -241}
         max: {x: -172, y: 61, z: -236}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, use-anvil: allow, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1435,11 +1496,11 @@ regions:
         max: {x: -187, y: 56, z: -252}
         members:
             unique-ids: [8330d120-2e4b-48c1-bfdc-8d4920dee119]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
@@ -1447,7 +1508,7 @@ regions:
         min: {x: -205, y: 53, z: -235}
         max: {x: -205, y: 53, z: -235}
         members: {}
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
@@ -1457,10 +1518,11 @@ regions:
     shop-52:
         members:
             unique-ids: [a8f81a4a-d522-4cdf-a299-3c2842c13635]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -1495,11 +1557,11 @@ regions:
     shop-53:
         members:
             unique-ids: [297eaa53-8782-4bd6-a46e-94c9efb9e4f5]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -1529,12 +1591,14 @@ regions:
         - {x: -157, z: -199}
     shop-54:
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -1560,12 +1624,14 @@ regions:
         - {x: -157, z: -209}
     shop-55:
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -1591,22 +1657,22 @@ regions:
         max: {x: -227, y: 56, z: -272}
         members:
             unique-ids: [1e9815f6-480a-4ef5-8de9-f73c76b72af3]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     shop-51:
         members:
             unique-ids: [bc26eba9-b8e3-45f1-a755-d46260cdccc7]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -1630,23 +1696,27 @@ regions:
         min: {x: -177, y: 53, z: -214}
         max: {x: -168, y: 57, z: -209}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     shop-57:
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -1668,23 +1738,25 @@ regions:
         min: {x: -185, y: 54, z: -220}
         max: {x: -180, y: 57, z: -209}
         members: {}
-        flags: {quickshop-og-create: allow, quickshop-og-trade: allow, use: allow, build-group: MEMBERS, greeting: '§8[§aAreaShop§8] §6This
-                shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee: one
-                payment rents it for §212 months§6) §7(shift-click the sign)', interact: allow,
-            chest-access: allow, ride: allow, block-place: allow, ride-group: MEMBERS,
-            can-flippy: allow, chest-access-group: MEMBERS, build: allow, block-break: allow,
-            block-place-group: MEMBERS, block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
+                §6This shop can be rented for §b32 Diamonds §6per §230 days §6(jubilee:
+                one payment rents it for §212 months§6) §7(shift-click the sign)',
+            build-group: MEMBERS, interact: allow, chest-access: allow, ride: allow,
+            block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: cuboid
         priority: 20
     shop-59:
         members:
             unique-ids: [4f872b50-f500-4569-9d51-f6cbfcca894c]
-        flags: {use: allow, build-group: MEMBERS, interact: deny, chest-access: allow,
-            ride: allow, block-place: allow, ride-group: MEMBERS, can-flippy: allow,
-            chest-access-group: MEMBERS, build: allow, use-group: MEMBERS, block-break: allow,
-            interact-group: NON_MEMBERS, block-place-group: MEMBERS, use-anvil: allow,
-            block-break-group: MEMBERS}
+        flags: {use-anvil-group: MEMBERS, use: allow, build-group: MEMBERS, chest-access: allow,
+            ride: allow, block-place: allow, quickshop-og-create: allow, quickshop-og-create-group: MEMBERS,
+            quickshop-og-trade: allow, ride-group: MEMBERS, can-flippy: allow, build: allow,
+            chest-access-group: MEMBERS, block-break: allow, block-place-group: MEMBERS,
+            use-anvil: allow, block-break-group: MEMBERS}
         owners: {}
         type: poly2d
         priority: 20
@@ -1724,8 +1796,8 @@ regions:
             greeting: §bWelcome to spawn! PvP is disabled here except in the warzone/arena.
             snow-fall: deny
             block-trampling: deny
-            leaf-decay: deny
             ice-melt: deny
+            leaf-decay: deny
             allow-boat-tp: deny
             fire-spread: deny
             can-flippy: deny
@@ -1739,13 +1811,13 @@ regions:
             deny-spawn: ['minecraft:cow', 'minecraft:chicken', 'minecraft:pig', 'minecraft:llama',
                 'minecraft:sheep', 'minecraft:rabbit']
             mob-spawning: deny
-            natural-hunger-drain: allow
+            natural-hunger-drain: deny
             creeper-explosion: deny
             vine-growth: deny
             fall-damage: deny
             damage-animals: deny
-            frosted-ice-melt: deny
             snow-melt: deny
+            frosted-ice-melt: deny
             tnt: deny
             lava-flow: deny
             farewell: §2Entering wilderness... you are no longer protected or restricted.
@@ -1772,7 +1844,7 @@ regions:
         max: {x: 86, y: 158, z: -268}
         members:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
-        flags: {chorus-fruit-teleport: deny, fire-extinguish: allow, temporary-cobwebs: allow,
+        flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
             water-flow: allow, invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny,
             fire-spread: deny, natural-hunger-drain: allow, temporary-fluids: allow,
             fall-damage: allow, claim-bounties: deny}

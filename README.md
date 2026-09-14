@@ -2,7 +2,17 @@
     <img src="worldguard-logo.svg" alt="WorldGuard" width="400" /> 
 </h1>
 
-WorldGuard lets you and players guard areas of land against griefers and undesirables, as well as tweak and disable various gameplay features of Minecraft.
+A fork of [WorldGuard](https://github.com/EngineHub/WorldGuard) 7.0.8 maintained by [TrueOG Network](https://true-og.net) for 1.19.4. WorldGuard lets you and players guard areas of land against griefers and undesirables, as well as tweak and disable various gameplay features of Minecraft.
+
+## Changes over WorldGuard:
+
+- Gradle 8.0.2 -> 8.14.3.
+- `build` copies the shaded jar to `build/libs/WorldGuard-<version>.jar` via `copyjar.sh`.
+- Ships the live TrueOG Network `config.yml`, `config_world.yml`, and `worlds/world/regions.yml` as defaults. The world regions file is created on first run alongside the main config.
+- New region flag `creeper-block-damage` (default allow). Set it to deny with `creeper-explosion` allowed to keep creeper blasts from breaking blocks while still damaging entities. This is how the spawn warzone is configured.
+- Bucket use no longer plays the deny effect when a partner plugin's `safe-fluids` flag allows the action (FireFight-OG compatibility).
+
+## Upstream description:
 
 * Block creeper and wither block damage, falling damage, etc.
 * Disable fire spread, lava fire spread, ice formation, Endermen picking up blocks, etc.
@@ -23,8 +33,8 @@ A Bukkit server implementation (such as [Paper](https://papermc.io)) and the [Wo
 Compiling
 ---------
 
-The project is written for Java 16 and our build process makes use of
-[Gradle](http://gradle.org).
+The project is written for Java 17 and our build process makes use of
+[Gradle](http://gradle.org). Run `./gradlew build` and pick up the plugin jar from `build/libs/`.
 
 Dependencies are automatically handled by Gradle.
 
@@ -40,6 +50,7 @@ Submissions must be licensed under the GNU Lesser General Public License v3.
 Links
 -----
 
+* [TrueOG fork](https://github.com/true-og/WorldGuard)
 * [Homepage](http://enginehub.org/worldguard)
 * [Discord](https://discord.gg/enginehub)
 * [Issue tracker](https://github.com/EngineHub/WorldGuard/issues)

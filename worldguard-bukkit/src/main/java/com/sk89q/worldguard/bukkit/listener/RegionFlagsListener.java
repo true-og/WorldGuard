@@ -94,6 +94,8 @@ public class RegionFlagsListener extends AbstractListener {
 
         if (event.getCause().find(EntityType.CREEPER) != null) { // Creeper
             event.filter(testState(query, Flags.CREEPER_EXPLOSION), config.explosionFlagCancellation);
+            // Strips blocks from the blast without cancelling it, so entity damage still lands.
+            event.filter(testState(query, Flags.CREEPER_BLOCK_DAMAGE), false);
         }
 
         if (event.getCause().find(EntityType.ENDER_DRAGON) != null) { // Enderdragon
