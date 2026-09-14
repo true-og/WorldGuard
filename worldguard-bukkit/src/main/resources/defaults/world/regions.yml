@@ -28,12 +28,12 @@ regions:
     arena-hell:
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
+            invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
         owners: {}
         type: poly2d
-        priority: 4
+        priority: 6
         max-y: 73
         min-y: 60
         points:
@@ -239,12 +239,12 @@ regions:
         max: {x: 147, y: 116, z: -326}
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
+            invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
         owners: {}
         type: cuboid
-        priority: 4
+        priority: 6
     shop-80:
         min: {x: -99, y: 53, z: -271}
         max: {x: -89, y: 59, z: -262}
@@ -341,12 +341,12 @@ regions:
         members:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, build-group: MEMBERS, lighter: allow, pvp: allow, mob-spawning: deny,
+            invincible: deny, build-group: MEMBERS, lighter: allow, pvp: deny, mob-spawning: deny,
             fire-spread: deny, natural-hunger-drain: allow, temporary-fluids: allow,
             build: allow, fall-damage: allow, lava-flow: allow, claim-bounties: deny}
         owners: {}
         type: cuboid
-        priority: 4
+        priority: 6
     shop-71:
         min: {x: -179, y: 53, z: -255}
         max: {x: -171, y: 59, z: -251}
@@ -397,12 +397,12 @@ regions:
         max: {x: -97, y: 52, z: -270}
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
+            invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
         owners: {}
         type: cuboid
-        priority: 4
+        priority: 6
     shop-79:
         members: {}
         flags: {use-anvil-group: MEMBERS, use: allow, greeting: '§8[§aAreaShop§f-§4OG§8]
@@ -435,12 +435,12 @@ regions:
     arena-frozone:
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
+            invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
         owners: {}
         type: poly2d
-        priority: 4
+        priority: 6
         max-y: 69
         min-y: 63
         points:
@@ -675,12 +675,12 @@ regions:
     arena-atlantis:
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, build-group: MEMBERS, lighter: allow, pvp: allow, mob-spawning: deny,
+            invincible: deny, build-group: MEMBERS, lighter: allow, pvp: deny, mob-spawning: deny,
             fire-spread: deny, natural-hunger-drain: allow, temporary-fluids: allow,
             build: allow, fall-damage: allow, claim-bounties: deny}
         owners: {}
         type: poly2d
-        priority: 4
+        priority: 6
         max-y: 61
         min-y: 53
         points:
@@ -774,12 +774,12 @@ regions:
         max: {x: 145, y: 72, z: -187}
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
+            invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
         owners: {}
         type: cuboid
-        priority: 3
+        priority: 6
     shop-16:
         min: {x: -160, y: 66, z: -285}
         max: {x: -155, y: 68, z: -279}
@@ -889,12 +889,12 @@ regions:
         max: {x: -223, y: 47, z: -292}
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
+            invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
         owners: {}
         type: cuboid
-        priority: 5
+        priority: 6
     shop-90:
         min: {x: -149, y: 53, z: -287}
         max: {x: -143, y: 57, z: -281}
@@ -1238,12 +1238,12 @@ regions:
         max: {x: 108, y: 77, z: -252}
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            water-flow: allow, invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny,
+            water-flow: allow, invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny,
             block-place: deny, fire-spread: deny, natural-hunger-drain: allow, temporary-fluids: allow,
             build: deny, fall-damage: allow, claim-bounties: deny}
         owners: {}
         type: cuboid
-        priority: 3
+        priority: 6
     shop-35:
         min: {x: -163, y: 66, z: -193}
         max: {x: -160, y: 70, z: -190}
@@ -1298,12 +1298,12 @@ regions:
         max: {x: 33, y: 75, z: -106}
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
+            invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
         owners: {}
         type: cuboid
-        priority: 4
+        priority: 6
     oitc-lava-flow:
         min: {x: 33, y: 63, z: -143}
         max: {x: 43, y: 69, z: -138}
@@ -1505,16 +1505,16 @@ regions:
         type: cuboid
         priority: 20
     arena-cave:
-        min: {x: -205, y: 53, z: -235}
-        max: {x: -205, y: 53, z: -235}
+        min: {x: 103, y: 52, z: -351}
+        max: {x: 123, y: 64, z: -334}
         members: {}
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny, fire-spread: deny,
+            invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny, fire-spread: deny,
             natural-hunger-drain: allow, temporary-fluids: allow, build: deny, fall-damage: allow,
             claim-bounties: deny}
         owners: {}
         type: cuboid
-        priority: 4
+        priority: 6
     shop-52:
         members:
             unique-ids: [a8f81a4a-d522-4cdf-a299-3c2842c13635]
@@ -1553,7 +1553,7 @@ regions:
         flags: {other-explosion: allow, build: allow}
         owners: {}
         type: cuboid
-        priority: 5
+        priority: 7
     shop-53:
         members:
             unique-ids: [297eaa53-8782-4bd6-a46e-94c9efb9e4f5]
@@ -1831,7 +1831,7 @@ regions:
         flags: {other-explosion: allow, build: allow}
         owners: {}
         type: cuboid
-        priority: 5
+        priority: 7
     __global__:
         members: {}
         flags: {other-explosion: allow, creeper-explosion: allow, fire-spread: allow,
@@ -1841,13 +1841,13 @@ regions:
         priority: 0
     arena-olympus:
         min: {x: 47, y: 115, z: -308}
-        max: {x: 86, y: 158, z: -268}
+        max: {x: 86, y: 143, z: -268}
         members:
             unique-ids: [9c272295-71dd-4aad-b59e-3de12d73b68a]
         flags: {fire-extinguish: allow, chorus-fruit-teleport: deny, temporary-cobwebs: allow,
-            water-flow: allow, invincible: deny, lighter: allow, pvp: allow, mob-spawning: deny,
+            water-flow: allow, invincible: deny, lighter: allow, pvp: deny, mob-spawning: deny,
             fire-spread: deny, natural-hunger-drain: allow, temporary-fluids: allow,
             fall-damage: allow, claim-bounties: deny}
         owners: {}
         type: cuboid
-        priority: 4
+        priority: 6
