@@ -1,2 +1,3 @@
 *.java   diff=java
 
+.gitea/CODEOWNERS linguist-detectable=false
