@@ -50,7 +50,7 @@ Submissions must be licensed under the GNU Lesser General Public License v3.
 Links
 -----
 
-* [TrueOG fork](https://github.com/true-og/WorldGuard)
+* [TrueOG fork](https://git.trueog.net/trueog/WorldGuard)
 * [Homepage](http://enginehub.org/worldguard)
 * [Discord](https://discord.gg/enginehub)
 * [Issue tracker](https://github.com/EngineHub/WorldGuard/issues)
